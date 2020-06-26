@@ -1,0 +1,24 @@
+Task1 - Iterative
+
+	Pentru aceasta functie (dar si pentru celelalte) folosesc un vector in care citesc toate datele din fisierul dat ca patametru. In functie de datele citite, creez matricea de adiacenta 'A' care respecta reguile din cerinta dar si matricea stochastica 'M'. Apoi, calculez numarul de linkuri detinute de o pagina i si salvez acest numar in vectorul L(i).
+	In cele din urma, aplic algoritmul si pastrez doar prima coloana din matricea R.
+
+Task2 - Algebraic
+
+	Citirea datelor, crearea matricei de adiacenta 'A' si crearea vectorului 'L(i)' se fac la fel ca la task-ul precedent. Calculez matricea stochastica 'M' si cu ajutorul acesteia incep implementarea formulei din acelasi link pus in pdf. Apelez functia PR_Inv unde am implementat algoritmul Gram-Schmidt pentru a afla inversa matricei. Dupa aceasta descompunere , rezolv sistemul cu functia SST si aflu inversa matricei 'T'. In final, aplic formula si aflu vectorul R. 
+
+Task3 - Apartenenta si PageRank
+
+	Am calculat 'de mana' formula pentru valorile 'a' si 'b' apoi am implementat functia 'Apartenenta' care intoarce valoarea u(x). 
+	In functia PageRank apelez functiile Iterative si Apartenenta si salvez in doi vectori valorile intoarse, apoi le afisez in fisierul 'nume'.out.
+Creez o matrice 'M' si folosesc 3 coloane: prima coloana are valorile 1:N, a doua coloana are ca valori indicii PageRank-ului, in functie de clasament, iar ultima coloana reprezinta clasamentul(valorile intoarse de functia Apartenenta). Afisez si matricea in acelasi fisier 'nume'.out.
+
+
+
+
+
+
+
+
+
+
